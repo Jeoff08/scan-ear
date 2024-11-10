@@ -1,0 +1,41 @@
+.container {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-image: url("asset/Group 1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.form {
+  margin-top: 150px;
+  font-size: 20px;
+}
+input {
+  width: 307px;
+  margin-bottom: 28px;
+  height: 36px;
+  border-radius: 5px;
+  border: 1px solid rgb(251, 154, 64);
+}
+.login-btn {
+  border-radius: 5px;
+  margin-bottom: 40px;
+  font-size: 17px;
+  color: white;
+  width: 98px;
+  height: 32px;
+  background-color: orange;
+  border: 1px solid rgb(251, 154, 64);
+}
+.signup-btn {
+  border-radius: 5px;
+  font-size: 17px;
+  color: white;
+  width: 98px;
+  height: 32px;
+  border: 1px solid rgb(251, 154, 64);
+  background-color: orange;
+}
